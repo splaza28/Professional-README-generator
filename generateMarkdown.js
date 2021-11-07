@@ -50,17 +50,44 @@ function generateMarkdown(data) {
   ##Table of Contents
   *[Description](#description)
   *[Installation](#installation)
-  *[Contributions](#contributions)
-  *[Testing](#testing)
+  *[Contributing](#contributions)
+  *[Tests](#testing)
   *[Usage]($usage)
   *[Licenses]($licenses)
-  *[Links]($links)
+  *[Questions]($questions)
 
   ##Description
 
   ${data.description}
 
+  ##Installation
 
+  ${data.installation}
+
+  ##Contributing
+
+  ${data.contributions}
+
+  ##Tests
+
+  ${data.testing}
+
+  ##Usage
+
+  ${data.usage}
+
+  ##Licenses
+
+  ${data.licenses}
+
+  ##Questions
+
+  * Application URL: (https://${data.github}.github.io/${data.title}/)
+  * Github Repository URL: (https://github.com/${data.github}/${data.title})
+
+
+
+  If there are questions please reach out to ${data.email} for answers!
 
 `;
 }
