@@ -43,44 +43,46 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+ 
   return `# ${data.title}
 
-  ${renderLicenseBadge(data.license)}${renderLicenseLink(data/license)}
+  ${renderLicenseBadge(data.licenses)}
 
-  ##Table of Contents
-  *[Description](#description)
-  *[Installation](#installation)
-  *[Contributing](#contributions)
-  *[Tests](#testing)
-  *[Usage]($usage)
-  *[Licenses]($licenses)
-  *[Questions]($questions)
+  ## Table of Contents:
 
-  ##Description
+  1. [Description](#description)
+  2. [Installation](#installation)
+  3. [Contributions](#contributions)
+  4. [Testing](#testing)
+  5. [Usage](#usage)
+  6. [Licenses](#licenses)
+  7. [Questions](#questions)
+
+  ## Description
 
   ${data.description}
 
-  ##Installation
+  ## Installation
 
   ${data.installation}
 
-  ##Contributing
+  ## Contributions
 
   ${data.contributions}
 
-  ##Tests
+  ## Testing
 
   ${data.testing}
 
-  ##Usage
+  ## Usage
 
   ${data.usage}
 
-  ##Licenses
+  ## Licenses
 
   ${data.licenses}
 
-  ##Questions
+  ## Questions
 
   * Application URL: (https://${data.github}.github.io/${data.title}/)
   * Github Repository URL: (https://github.com/${data.github}/${data.title})
