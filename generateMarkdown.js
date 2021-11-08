@@ -80,12 +80,12 @@ function generateMarkdown(data) {
 
   ## Licenses
 
-  ${data.licenses}
+  $${renderLicenseLink(data.licenses)}
 
   ## Questions
 
   * Application URL: (https://${data.github}.github.io/${data.title}/)
-  * Github Repository URL: (https://github.com/${data.github}/${data.title})
+  * Github URL: (https://github.com/${data.github})
 
 
 
