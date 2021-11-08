@@ -80,7 +80,7 @@ function generateMarkdown(data) {
 
   ## Licenses
 
-  $${renderLicenseLink(data.licenses)}
+  ${renderLicenseLink(data.licenses)}
 
   ## Questions
 
