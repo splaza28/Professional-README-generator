@@ -14,15 +14,15 @@
 
   ## Description
 
-  Professional RAEDME template to use for future projects
+  Creating a Professional README template to use for future projects.
 
   ## Installation
 
-  Be sure to install all required programs and packages
+  Be sure to install all required programs and packages.
 
   ## Contributions
 
-  Fork repository
+  Fork Github repository.
 
   ## Testing
 
@@ -30,7 +30,9 @@
 
   ## Usage
 
-  Install Node.js and Inquirer
+  Install Node.js and Inquirer.
+
+  Walkthrough video: https://watch.screencastify.com/v/Agh7fvFdm04o8WENNciM
 
   ## Licenses
 
@@ -39,7 +41,7 @@
   ## Questions
 
   * Application URL: (https://splaza28.github.io/Professional-README-generator/)
-  * Github URL: (https://github.com/splaza28	)
+  * Github URL: (https://github.com/splaza28)
 
 
 
